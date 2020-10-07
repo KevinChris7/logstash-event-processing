@@ -1,7 +1,0 @@
-- pipeline.id: access_logs
-  #pipeline.batch.size: 50
-  path.config: "/etc/logstash/apache/access.conf"
-
-- pipeline.id: error_logs
-  pipeline.batch.size: 1
-  path.config: "/etc/logstash/apache/errors.conf"
